@@ -1,0 +1,8 @@
+1)Build a small discount feature in a Python project, using a feature branch, a pull request, tests, a release tag, and a hotfix.
+2)Run a container, build your own image with a Dockerfile, and serve a web page from it, using only Docker on one machine.
+3)Run Jenkins, create a pipeline job, run it, and read the results with email notification
+4)Create a GitHub Actions workflow that runs automatically, builds the project, runs tests, and shows a pass or fail status.
+5)Deploy a web app to a local Kubernetes cluster, scale it, test self-healing, and roll out an update.
+6)Use the AWS console to secure an account, store a file in S3, serve a web page from EC2, and remove everything afterwards to avoid charges.
+7)Build a small VPC with a public subnet and a private subnet. Reach a private EC2 instance by SSH through a bastion host in the public subnet, and confirm that the private instance has no direct internet access.
+8)Run a PostgreSQL database in Docker, create a table, add and query data, confirm the data survives a container restart, and back it up and restore it.
