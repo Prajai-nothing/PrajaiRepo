@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Practice Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="docker-banner">
+            🚀 This Weather Dashboard is created for practicing Kubernetes.
+        </div>
+
+        <h1>☸️ Kubernetes POC Weather Dashboard v2</h1>
+        <h1>🌤 Weather Dashboard</h1>
+
+        <p class="subtitle">
+            Search for a city to view weather information.
+        </p>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="city"
+                placeholder="Enter City Name"
+            >
+            <button onclick="getWeather()">Search</button>
+        </div>
+
+        <div id="result" class="result">
+            Enter a city and click Search.
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

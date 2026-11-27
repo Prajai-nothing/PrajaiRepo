@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: kubernetes-poc-weather-deployment
+
+spec:
+  replicas: 3
+
+  selector:
+    matchLabels:
+      app: kubernetes-poc-weather-app
+
+  template:
+    metadata:
+      labels:
+        app: kubernetes-poc-weather-app
+
+    spec:
+      containers:
+      - name: kubernetes-poc-weather-container
+        image: docker-poc-weather-dashboard:v1
+
+        imagePullPolicy: IfNotPresent
+
+        ports:
+        - containerPort: 80
